@@ -35,7 +35,7 @@ const PlatformIconList = ({ platforms }: Props) => {
         <Icon
           marginY={2}
           color="gray.500"
-          key={platform.slug}
+          key={platform.id}
           as={iconMap[platform.slug]}
         />
       ))}
